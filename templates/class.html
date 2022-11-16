@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    <head><title>MUSHROOMS</title></head>
+    <body>
+        <form action="/mushroom" method="post" target="_blank">
+            <h2>PREDICTING THE MUSHROOMS IS POISONOUS (OR) EDIBLE</h2>
+            <label>cap-shape</label> <select name="cap-shape" required>
+                <option value="">---select option--</option>
+                <option value="convex">convex</option>
+                <option value="bell">bell</option>
+                <option value="sunken">sunken</option>
+                <option value="flat">flat</option>
+                <option value="knobbed">knobbed</option>
+                <option value="conical">conical</option></select><br/><br/>
+
+            <label>cap-surface</label> <select name="cap-surface" required>
+                <option value="">--select option--</option>
+                <option value="smooth">smooth</option>
+                <option value="scaly">scaly</option>
+                <option value="fibrous">fibrous</option>
+                <option value="grooves">grooves</option></select><br/><br/>
+
+            <label>cap-color</label> <select name="cap-color",required>
+                <option value="">--select option---</option>
+                <option value="brown">brown</option>
+                <option value="yellow">yellow</option>
+                <option value="white">white</option>
+                <option value="gray">gray</option>
+                <option value="red">red</option>
+                <option value="pink">pink</option>
+                <option value="buff">buff</option>
+                <option value="purple">purple</option>
+                <option value="cinnamon">cinnamon</option>
+                <option value="green">green</option> </select> <br/><br/>
+
+            <label>bruises</label> <input name="bruises" value="bruises" type="radio" required="required"/> bruises
+            <input name="bruises" value="no" type="radio" required="required"/> no <br/><br/>
+
+            <ladel>odor</ladel> <select name="odor" required>
+                <option value="">--select option--</option>
+                <option value="pungent">pungent</option>
+                <option value="almond">almond</option>
+                <option value="anise">anise</option>
+                <option value="none">none</option>
+                <option value="foul">foul</option>
+                <option value="creosote">creosote</option>
+                <option value="fishy">fishy</option>
+                <option value="spicy">spicy</option>
+                <option value="musty">musty</option> </select> <br/><br/>
+            
+            <label>gill-attachment</label> <input name="gill-attachment" type="radio" value="free" required="required" /> free
+            <input name="gill-attachment" type="radio" value="attached" required="required"/> attached <br/><br/>
+
+            <label>gill-spacing</label> <input name="gill-spacing" type="radio" value="close" required="required"/> close
+            <input name="gill-spacing" type="radio" value="crowded" required="required"/> crowded <br/><br/>
+
+            <label>gill-size</label> <input name="gill-size" type="radio" value="narrow" required="required"/> narrow
+            <input name="gill-size" type="radio" value="broad" required="required"/> broad <br/><br/>
+
+            <label>gill-color</label> <select name="gill-color" required>
+                <option value="">--select option--</option>
+                <option value="black">black</option>
+                <option value="brown">brown</option>
+                <option value="gray">gray</option>
+                <option value="pink">pink</option>
+                <option value="white">white</option>
+                <option value="chocolate">chocolate</option>
+                <option value="purple">purple</option>
+                <option value="red">red</option>
+                <option value="buff">buff</option>
+                <option value="green">green</option>
+                <option value="yellow">yellow</option>
+                <option value="orange">orange</option></select><br/><br/>
+            
+            <label>stalk-shape</label> <input name="stalk-shape" type="radio" value="enlarging" required="required"/> enlarging
+            <input name="stalk-shape" type="radio" value="tapering" required="required"/> tapering <br/><br/>
+
+            <label>stalk-root</label> <select name="stalk-root" required>
+                <option value="">--select option--</option>
+                <option value="equal">equal</option>
+                <option value="club">club</option>
+                <option value="bulbous">bulbous</option>
+                <option value="rooted">rooted</option></select><br/><br/>
+
+            <label>stalk-surface-above-ring</label> <select name="stalk-surface-above-ring" required>
+                <option value="">--select option--</option>
+                <option value="smooth">smooth</option>
+                <option value="fibrous">fibrous</option>
+                <option value="silky">silky</option>
+                <option value="scaly">scaly</option></select><br/><br/>
+
+            <label>stalk-surface-below-ring</label> <select name="stalk-surface-below-ring" required>
+                <option value="">--select option--</option>
+                <option value="smooth">smooth</option>
+                <option value="fibrous">fibrous</option>
+                <option value="silky">silky</option>
+                <option value="scaly">scaly</option></select><br/><br/>
+            
+            <label>stalk-color-above-ring</label> <select name="stalk-color-above-ring" required>
+                <option value="">--select option--</option>
+                <option value="white">white</option>
+                <option value="gray">gray</option>
+                <option value="pink">pink</option>
+                <option value="brown">brown</option>
+                <option value="buff">buff</option>
+                <option value="red">red</option>
+                <option value="orange">orange</option>
+                <option value="cinnamon">cinnamon</option>
+                <option value="yellow">yellow</option></select><br/><br/>
+            
+            <label>stalk-color-below-ring</label> <select name="stalk-color-below-ring" required>
+                <option value="">--select option--</option>
+                <option value="white">white</option>
+                <option value="gray">gray</option>
+                <option value="pink">pink</option>
+                <option value="brown">brown</option>
+                <option value="buff">buff</option>
+                <option value="red">red</option>
+                <option value="orange">orange</option>
+                <option value="cinnamon">cinnamon</option>
+                <option value="yellow">yellow</option></select><br/><br/>
+
+            <label>veil-color</label> <select name="veil-color" required>
+                <option value="">--select option--</option>
+                <option value="white">white</option>
+                <option value="brown">brown</option>
+                <option value="orange">orange</option>
+                <option value="yellow">yellow</option></select><br/><br/>
+
+            <label>ring-number</label> <input name="ring-number" type="radio" value="one" required="required"/> one
+            <input name="ring-number" type="radio" value="two" required="required"/> two
+            <input name="ring-number" type="radio" value="none" required="required"/> none <br/><br/>
+
+            <label>ring-type</label> <select name="ring-type" reuired>
+                <option value="">--select option--</option>
+                <option value="pendant">pendant</option>
+                <option value="evanescent">evanescent</option>
+                <option value="large">large</option>
+                <option value="flaring">flaring</option>
+                <option value="none">none</option></select><br/><br/>
+
+            <label>spore-print-color</label> <select name="spore-print-color" required>
+                <option value="">--select option--</option>
+                <option value="black">black</option>
+                <option value="brown">brown</option> 
+                <option value="purple">purple</option>
+                <option value="chocolate">chocolate</option>
+                <option value="white">white</option>
+                <option value="green">green</option>
+                <option value="orange">orange</option>
+                <option value="yellow">yellow</option>
+                <option value="buff">buff</option></select><br/><br/>
+
+            <label>population</label> <select name="population" required>
+                <option value="">--select option--</option>
+                <option value="scattered">scattered</option>
+                <option value="numerous">numerous</option>
+                <option value="abundant">abundant</option>
+                <option value="several">several</option>
+                <option value="solitary">solitary</option>
+                <option value="clustered">clustered</option></select><br/><br/>
+
+            <label>habitat</label> <select name="habitat" required>
+                <option value="">--select option--</option>
+                <option value="urban">urban</option>
+                <option value="grasses">grasses</option>
+                <option value="meadows">meadows</option>
+                <option value="woods">woods</option>
+                <option value="paths">paths</option>
+                <option value="waste">waste</option>
+                <option value="leaves">leaves</option></select><br/><br/>
+            
+            <button type="submit" style="background-color:red ;color:azure" class="btn btn-primary btn-block btn-large">predict</button>
+
+        </form>
+    </body>
+</html>
